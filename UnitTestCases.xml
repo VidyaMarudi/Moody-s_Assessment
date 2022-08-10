@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Moody's_Assessment">
+ <!-- <parameter name="browser" value="Chrome"/>
+  <parameter name="testData" value="Dynamic path of test data"/> -->
+
+  <!-- <test name="UnitTestCases_UnitTestCase1">
+      <classes>  
+      	<class name="UnitTestCases.AccessFirstAndLastElements"/> 
+      </classes>
+  </test>  -->
+  
+  <!--  <test name="UnitTestCases_UnitTestCase2">  
+    <classes>
+       <class name="UnitTestCases.Customer"/>
+    </classes>
+  </test>  -->
+   
+ 
+  
+</suite> 

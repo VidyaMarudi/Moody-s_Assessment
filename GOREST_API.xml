@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Moody's_Assessment">
+
+  <test name="APIChallenge_GET API">
+      <parameter name="emailid" value="tester456@gmail.com"/>
+      <classes>  
+      	<class name="APIChallenge.GET_API"/> 
+      </classes>
+  </test> 
+  
+   <test name="APIChallenge_PUT API">    
+    <parameter name="emailid" value="tester789@gmail.com"/>
+    <classes>
+       <class name="APIChallenge.PUT_API"/>
+    </classes>
+  </test> 
+   
+  <test name="APIChallenge_POST API">    
+    <parameter name="emailid" value="tester789@gmail.com"/>
+    <classes>
+       <class name="APIChallenge.POST_API"/>
+    </classes>
+  </test> 
+  
+   <test name="APIChallenge_DELETE API">    
+    <parameter name="emailid" value="tester789@gmail.com"/>
+    <classes>
+       <class name="APIChallenge.DELETE_API"/>
+    </classes>
+  </test> 
+  
+</suite> 
